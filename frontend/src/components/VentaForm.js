@@ -112,7 +112,7 @@ const VentaForm = () => {
                 >
                     <option value="">Seleccionar Cliente</option>
                     {clients.map(client => (
-                        <option key={client._id} value={client._id}>
+                        <option key={client.id} value={client.id}>
                             {client.name}
                         </option>
                     ))}
