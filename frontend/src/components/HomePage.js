@@ -5,8 +5,8 @@ const HomePage = () => {
     return (
         
         <div className="min-h-screen flex flex-col items-center justify-center mb-20">
-            <div className="circlePosition bg-pink-600/70 rounded-[100%] blur-[180px] bg-fixed w-[590px] h-[400px] absolute z-1 translate-y-[-20%] translate-x-[-30%]"></div>
-            <div className="circlePosition bg-purple-600 rounded-[100%] blur-[220px] bg-fixed w-[590px] h-[300px] absolute z-1  translate-y-[80%] translate-x-[-80%]"></div>
+            <div className="circlePosition bg-blue-600/70 rounded-[100%] blur-[180px] bg-fixed w-[590px] h-[400px] absolute z-1 translate-y-[-20%] translate-x-[-30%]"></div>
+            <div className="circlePosition bg-yellow-600 rounded-[100%] blur-[220px] bg-fixed w-[590px] h-[300px] absolute z-1  translate-y-[80%] translate-x-[-80%]"></div>
             <div className="circlePosition bg-orange-600/60 rounded-[100%] blur-[220px] bg-fixed w-[400px] h-[590px] absolute z-1  translate-y-[-10%] translate-x-[90%]"></div>
             
             <div className="grid grid-rows-3 grid-flow-col gap-4 ml-40 mr-40 mt-20 mb-20 p-10 rounded-lg bg-white/20 backdrop-blur-sm shadow-2xl">
@@ -47,7 +47,7 @@ const HomePage = () => {
                         </p>
                     </article>
                     <button
-                        className="flex flex-row transition ease-in-out hover:-translate-y-1 hover:scale-110 duration:300 bg-purple-600 text-zinc-300 px-4 py-2 rounded hover:bg-purple-900 shadow-md shadow-purple-700"
+                        className="flex flex-row transition ease-in-out hover:-translate-y-1 hover:scale-110 duration:300 bg-blue-600 text-zinc-300 px-4 py-2 rounded hover:bg-blue-900 shadow-md shadow-blue-700"
                         onClick={() => window.location.href = "/products"}
                     >
                         Gestionar Productos
@@ -72,7 +72,7 @@ const HomePage = () => {
                         </p>
                     </article>
                     <button
-                        className="flex flex-row transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 bg-purple-600 text-zinc-300 px-4 py-2 rounded hover:bg-purple-900 shadow-md shadow-purple-700"
+                        className="flex flex-row transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 bg-blue-600 text-zinc-300 px-4 py-2 rounded hover:bg-blue-900 shadow-md shadow-blue-700"
                         onClick={() => window.location.href = "/clients"}
                     >
                         Gestionar Clientes
@@ -98,7 +98,7 @@ const HomePage = () => {
                         </p>
                     </article>
                     <button
-                        className="flex flex-row transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 bg-purple-600 text-zinc-300 px-4 py-2 rounded hover:bg-purple-900 shadow-md shadow-purple-700"
+                        className="flex flex-row transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 bg-blue-600 text-zinc-300 px-4 py-2 rounded hover:bg-blue-900 shadow-md shadow-blue-700"
                         onClick={() => window.location.href = "/ventas"}
                     >
                         Gestionar Ventas
